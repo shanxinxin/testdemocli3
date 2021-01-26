@@ -1,11 +1,21 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import First from '../components/first.vue'
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+console.log(VueRouter)
+console.log(1)
+// Vue.use(Router)
+// const originalPush = Router.prototype.push
+// Router.prototype.push = function push(location) {
+//   return originalPush.call(this, location).catch(err => err)
+// }
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'First',
+    component: First
   },
   {
     path: '/about',
