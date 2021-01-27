@@ -1,10 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
-import First from '../components/first.vue'
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-console.log(VueRouter)
-console.log(1)
+import Index from '../views/Index.vue'
+//import Vue from 'vue'
+//import VueRouter from 'vue-router'
 // Vue.use(Router)
 // const originalPush = Router.prototype.push
 // Router.prototype.push = function push(location) {
@@ -14,8 +12,8 @@ console.log(1)
 const routes = [
   {
     path: '/',
-    name: 'First',
-    component: First
+    name: 'Index',
+    component: Index
   },
   {
     path: '/about',
